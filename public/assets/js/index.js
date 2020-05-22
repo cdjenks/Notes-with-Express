@@ -21,7 +21,7 @@ var saveNote = function(note) {
     url: "/api/notes",
     data: note,
     method: "POST"
-  });
+  })
 };
 
 // A function for deleting a note from the db
